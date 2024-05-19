@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #f5c7bd;
+    font-family: "Times New Roman";
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-text-box{
+    flex: 70%;
+    padding: 20px;
+}
+.profile{
+    flex: 70%;
+    padding: 20px;
+}
+.profile img{
+    width: 120px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+.profile h1{
+    text-align: left;
+    font-size: 30px;
+}
